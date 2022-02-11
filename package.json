@@ -1,7 +1,8 @@
+
 {
   "name": "budget-app",
   "version": "1.0.0",
-  "description": "",
+  "description": "okay baby!",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -12,7 +13,7 @@
     "type": "git",
     "url": "git+https://github.com/noahdpsmith/trackcash.git"
   },
-  "author": "",
+  "author": "Noah",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/noahdpsmith/trackcash/issues"
