@@ -1,5 +1,5 @@
 let db;
-const request = indexedDB.open('trachcash', 1);
+const request = indexedDB.open('trackcash', 1);
 
 // this event will emit if the database version changes (nonexistant to version 1, v1 to v2, etc.)
 request.onupgradeneeded = function(event) {
@@ -30,10 +30,10 @@ function saveRecord(record) {
     const transaction = db.transaction(['new_transaction'], 'readwrite');
   
     // access the object store for `new_pizza`
-    const pizzaObjectStore = transaction.objectStore('new_transaction');
+    const spendingObjectStore = transaction.objectStore('new_transaction');
   
     // add record to your store with add method
-    pizzaObjectStore.add(record);
+    spendingObjectStore.add(record);
   }
   
 function uploadTransaction() {
