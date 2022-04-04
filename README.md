@@ -3,7 +3,7 @@
   ## Description 
       a PWA that alowes people to track cash both online and offline.
    ## image
-   https://user-images.githubusercontent.com/88944710/161605095-38931fd0-b5d2-4eec-8d47-227190777dee.png
+![image](https://user-images.githubusercontent.com/88944710/161605492-988b8917-55ff-460a-b791-d59a5e6fe87d.png)
 
    ## Table of Contents
 
